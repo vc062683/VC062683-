@@ -1,0 +1,140 @@
+body {
+  background-color: blue;
+  font-size: 25px;
+}
+h1 {
+  color: #f64c72;
+  outline-style: dotted;
+  outline-color: whitesmoke;
+  text-align: center;
+}
+body {
+  color: white;
+  font-size: 20px;
+  font-family: oblique;
+  text-align: center;
+}
+h2 {
+  color: #f64c72;
+  outline-style: dotted;
+  outline-color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+}
+#causes {
+  color: white;
+  text-align: initial;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+h3 {
+  color: #f64c72;
+  outline-style: dotted;
+  outline-color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+}
+button {
+  font-size: 25px;
+  color: skyblue;
+  outline-style: dotted;
+  outline-color: white;
+}
+p {
+  text-align: initial;
+  color: greenyellow;
+  outline-style: double;
+  outline-color: white;
+}
+img {
+  align-content: center;
+  outline-style: dashed;
+  outline-color: aqua;
+}
+h4 {
+  color: #f64c72;
+  outline-style: dotted;
+  outline-color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+}
+p12 {
+  color: #f64c72;
+  outline-style: dotted;
+  outline-color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+}
+li {
+  color: #f64c72;
+  text-align: left;
+}
+ul {
+  list-style-type: lower-roman;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+h5 {
+  color: #f64c72;
+  outline-style: dotted;
+  outline-color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+}
+button {
+  align-content: center;
+  color: #f64c72;
+  background-color: #2f2fa2;
+  font-style: italic;
+}
+article,
+aside,
+footer {
+  background-color: white;
+  padding: 1%;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-image: URL("giphy.gif")
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+b {
+  font-style: italic;
+  font-size: 50px;
+  color: #f64c72;
+}
+a {
+  color: white;
+}
